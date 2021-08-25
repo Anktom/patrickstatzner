@@ -1,0 +1,162 @@
+.content{
+  
+    width: 80%;
+   
+    position: absolute;
+    top: 30%;
+    margin-left: 40px;
+    color:rgba(255,255,255,0.75);
+    display: flex;
+    justify-content: space-between;
+    transition: all ease 0.9s;
+
+
+}
+
+.titulo h1{
+    font-size:50px;
+    margin: 0 ;
+
+
+}
+.Typewriter{
+    
+    text-align:left;
+    font-size: 80px;
+    margin: 50px 0px 100px 0px;
+  
+}
+.Typewriter__cursor{
+
+    color:rgba(255,255,255,0.75);
+
+}
+.photo{
+    background-color:rgba(255,255,255);
+    display:flex;
+    border-radius:50%;
+    align-items: center;
+    padding: 2px;
+    height:19em;
+
+}
+.photo img{
+    
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+
+}
+.footer span{
+  margin-right:50px ;
+
+}
+.footer button{
+    padding:10px 40px;
+    color: #1D2222;
+    text-decoration: none;
+    background-color:white;
+    border: 1px solid #1D2222;
+    border-radius: 5px;
+    
+    
+}
+.footer button:hover{
+    background-color:#000;
+    color: rgba(255,255,255,0.75);
+    border: 2px solid rgba(255,255,255,0.75);;
+
+    
+}
+
+.slide-in-top{
+    animation:slide-in-top .9s cubic-bezier(.68,-.55,.265,1.55) both
+}
+
+@keyframes slide-in-top{
+    0%{
+        transform:translateY(-1000px);
+        opacity:0
+    }
+    100%{
+        transform:translateY(0);
+        opacity:1
+    }
+}
+.scale-in-center{
+    -webkit-animation:scale-in-center 0.8s cubic-bezier(.25,.46,.45,.94) both;
+    animation:scale-in-center 0.8s cubic-bezier(.25,.46,.45,.94) both
+}
+
+@-webkit-keyframes scale-in-center{
+    0%{-webkit-transform:scale(0);
+        transform:scale(0);
+        opacity:1
+    }
+    100%{-webkit-transform:scale(1);
+        transform:scale(1);
+        opacity:1
+    }
+}    
+    
+@keyframes scale-in-center{
+    0%{
+        -webkit-transform:scale(0);
+        transform:scale(0.8);
+        opacity:1
+    }
+    100%{-webkit-transform:scale(1);
+        transform:scale(1);
+        opacity:1
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .content{
+       height:40vh;
+       display: flex;
+       flex-direction: column-reverse;
+       align-items: center;
+       top:50%;
+       text-align: center;
+    }
+    .titulo h1{
+        font-size:30px;
+        margin-top: 30px;
+       
+    }
+    .Typewriter{
+    
+        text-align:center;
+        font-size: 50px;
+        margin: 0;
+      
+    }
+    .photo{
+        height:23em;
+        padding:5px;
+
+    }
+    .photo img{
+        height: 350px;
+        width:350px;
+        
+
+    }
+    .footer {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       justify-content: space-between;
+       height:100px;
+      
+      }
+      .footer span{
+        margin:0;
+        
+
+
+      }
+}

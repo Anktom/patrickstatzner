@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,500&display=swap');
+
+body,
+html {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-color: #1D2222;
+}
+
+#navbar_top {
+    transition: all 0.5s ease;
+}
+
+.afterscroll {
+    background-color: #252A2A;
+}
+
+.navbar-nav {
+   font-size: 20px;
+}
+
+.main-logo:hover.is-dark .logo {
+    transform: translateX(10px);
+    transition-delay: 0s;
+}
+
+
+.navbar-brand {
+    color: white;
+    font-size: 20px;
+  }
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+    opacity: 50%;
+}
+
+.white {
+    color: white;
+}
+
+.white:hover {
+    color: #2AC7E9;
+}
+
+
+.bolder {
+    font-weight: bolder;
+}
+
+.italic {
+    font-style: italic;
+}
+
+
+
+.main-home {
+    height: 100vh;
+   
+}
+
+.home {
+    height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+    color: white;
+}
+
+.home-text h1 {
+    font-size: 60px !important;
+    line-height: 60px;
+}
+
+.second-line {
+    margin-left: 40px;
+}
+
+.home-text .typewriter {
+    margin-left: 120px;
+}
+
+.home p {
+    font-size: 20px;
+    opacity: 60%;
+}
+
+.home-text p {
+    margin-left: 120px;
+}
+
+/* SCROLLBAR*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #252A2A;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1a1b1b;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0f0f0f;
+}
+
+svg #Topics {
+
+    transition: all ease 0.5s;
+    transform: scale(0.7);
+}
+
+.typewriter {
+    display: inline-block;
+}
+
+
+
+
+
+@media(max-width:780px) {
+    .home-text h1 {
+        font-size: 30px !important;
+        line-height: 30px;
+    }
+
+  
+
+    p .second-line {
+        margin-left: 0;
+    }
+
+    .home-text .typewriter {
+        margin-left: 0;
+        font-size: 20px;
+        padding-right: 60px;
+    }
+
+    .second-line {
+        margin-left: 30px;
+    }
+
+    .typewriter .second-line {
+        margin-left: 0;
+    }
+
+    .home {
+        padding-top: 10%;
+    }
+}
+
+@media(max-width:400px) {
+    .navbar-brand {
+        margin-left: -10%;
+    }
+}
+
+@media(max-height:750px) {
+    .home-text h1 {
+        font-size: 30px !important;
+        line-height: 30px;
+    }
+
+    .mobilezada p {
+        margin-left: 0;
+        font-size: 20px;
+        padding-right: 60px;
+    }
+
+    p .second-line {
+        margin-left: 0;
+    }
+
+    .home-text .typewriter {
+        margin-left: 0;
+        font-size: 20px;
+        padding-right: 60px;
+    }
+
+    .second-line {
+        margin-left: 30px;
+    }
+
+    .typewriter .second-line {
+        margin-left: 0;
+    }
+
+    .home {
+        padding-top: 10%;
+    }
+}
+
+
