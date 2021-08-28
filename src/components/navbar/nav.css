@@ -35,7 +35,7 @@ nav .navbar-collapse{
 .nav-link:hover {
     transition: .3s all ease; 
     color: white;
-    opacity: 40%;
+    opacity: 0.4;
 }
 
 
