@@ -15,7 +15,7 @@ function App() {
         <Body/>
       </section>
       <section className="main-home" style={{backgroundColor:'white'}}>
-        IOJSAOIDJIAO
+       <span >LOADING</span>
       </section>
       
     </div>

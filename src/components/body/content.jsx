@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Typewriter from 'typewriter-effect';
 import './content.css'
-import perfilPhoto from './images/perfilPhoto.jpeg'
+import perfilPhoto from './perfilPhoto.jpeg'
 
 
 export default class Content extends Component {
