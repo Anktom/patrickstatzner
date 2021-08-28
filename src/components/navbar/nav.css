@@ -19,6 +19,24 @@ nav .navbar-collapse{
     transition: .3s all ease-in-out; 
     height: 0 !important;
 }
+.navbar-brand {
+    color: white;
+    font-size: 20px;
+  }
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    transition: .3s all ease; 
+    color: white;
+    opacity: 40%;
+}
 
 
 @media (max-width:991px){

@@ -13,7 +13,7 @@ i.left.fa {
 }
 
 i.left.fa:hover {
-    opacity: 80%;
+    opacity: 50% !important;
     transform: scale(1.0);
 }
 

@@ -29,23 +29,7 @@ body {
 }
 
 
-.navbar-brand {
-    color: white;
-    font-size: 20px;
-  }
 
-.navbar-brand:hover {
-    color: white;
-}
-
-.nav-link {
-    color: white;
-}
-
-.nav-link:hover {
-    color: white;
-    opacity: 50%;
-}
 
 .white {
     color: white;
