@@ -25,7 +25,7 @@ export default class Links extends Component {
                     </i>
                 </a>
 
-                <a href="https://www.linkedin.com/in/patrick-statzner-a71409134/" target="_blank">
+                <a href="https://github.com/Anktom" target="_blank">
                     <i className="left left-2 fa fa-linkedin fa-2x">
                         <FontAwesomeIcon icon={faGithub} />
                     </i>
